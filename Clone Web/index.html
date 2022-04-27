@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+		<link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon" />
+		<title>Test UniWatch</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header class="header" id="header">
+				<nav class="navbar">
+					<a href="#header" class="navbar__logo"
+						><img src="./Images/logo-main.png" alt="company logo"
+					/></a>
+					<div class="navbar__search-bar">
+						<ul class="navbar__search-bar--options">
+							<a href="#"
+								><li class="search-bar-option active-option">Explore</li></a
+							>
+							<a href="#"
+								><li class="search-bar-option">Get Scholarships</li></a
+							>
+							<a href="#"><li class="search-bar-option">Practice Exams</li></a>
+						</ul>
+						<div class="navbar__search-bar__bar">
+							<div class="bar__option">
+								<select id="destination" name="explore-college-info"></select>
+							</div>
+							<div class="bar__option">
+								<select id="location" name="explore-college-info"></select>
+							</div>
+							<div class="bar__option">
+								<select id="course" name="explore-college-info"></select>
+							</div>
+							<div class="bar__option submit-option">
+								<button type="button" name="explore-college-info" id="submit">
+									Search Now
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="navbar__signup-or-login-section"></div>
+				</nav>
+			</header>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+		<script src="./js/lists.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
